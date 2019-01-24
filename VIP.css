@@ -13,3 +13,6 @@ dt{
 table,td,th{
     border: solid 1px white;
 }
+.inv{
+    color: black;
+}
