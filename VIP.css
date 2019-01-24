@@ -6,6 +6,7 @@ dt{
     font-weight: bold;
     font-size: large;
 }
-a{
+.link{
     color: gold;
+    text-decoration: none;
 }
