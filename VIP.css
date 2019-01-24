@@ -10,3 +10,6 @@ dt{
     color: gold;
     text-decoration: none;
 }
+table,td,th{
+    border: solid 1px white;
+}
