@@ -20,6 +20,9 @@ table,th{
 .blackCell{
     background-color: black;
 }
+.grayCell{
+    background-color: gray;
+}
 .whiteCell{
     background-color: white;
 }
