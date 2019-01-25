@@ -16,3 +16,46 @@ table,td,th{
 .inv{
     color: black;
 }
+/*table cells*/
+.blackCell{
+    background-color: black;
+}
+.whiteCell{
+    background-color: white;
+}
+.pinkCell{
+    background-color: hotpink;
+}
+.redCell{
+    background-color: red;
+}
+.orangeCell{
+    background-color: orange;
+}
+.yellowCell{
+    background-color: yellow;
+}
+.lightGreenCell{
+    background-color: lightgreen;
+}
+.greenCell{
+    background-color: green;
+}
+.darkGreenCell{
+    background-color: darkgreen;
+}
+.lightBlueCell{
+    background-color: lightblue;
+}
+.blueCell{
+    background-color: blue;
+}
+.darkBlueCell{
+    background-color: darkblue;
+}
+.purpleCell{
+    background-color: purple;
+}
+.brownCell{
+    background-color: saddlebrown;
+}
