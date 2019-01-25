@@ -10,7 +10,7 @@ dt{
     color: gold;
     text-decoration: none;
 }
-table,td,th{
+table{
     border: solid 1px white;
 }
 .inv{
