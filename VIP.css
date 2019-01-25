@@ -10,9 +10,13 @@ dt{
     color: gold;
     text-decoration: none;
 }
-table,th{
+table{
+    margin-left: auto;
+    margin-right: auto;
     border: solid 1px white;
-    alignment: center;
+}
+th{
+    border: solid 1px white;
 }
 .inv{
     color: black;
