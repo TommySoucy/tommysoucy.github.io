@@ -12,6 +12,7 @@ dt{
 }
 table,th{
     border: solid 1px white;
+    alignment: center;
 }
 .inv{
     color: black;
