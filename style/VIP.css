@@ -190,3 +190,30 @@ th{
     text-align: center;
     position: relative;
 }
+#welcomeSection{
+    margin-top: 12%;
+    text-align: center;
+}
+#welcomeBanner{
+    color: gold;
+    font-size: 150px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+.bigText{
+    font-size: xx-large;
+}
+.emText{
+    color: gold;
+}
+#projectsSection{
+    background-color: black;
+    text-align: center;
+}
+.sectionTitle{
+    color: gold;
+    font-size: 120px;
+    font-weight: bolder;
+    padding-top: 5%;
+    margin: 0%;
+}
