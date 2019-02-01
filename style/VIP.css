@@ -1,6 +1,6 @@
 body{
     color: white;
-    background-image: linear-gradient(#343434, black);
+    background-color: black;
     margin: 0;
 }
 dt{
@@ -144,6 +144,10 @@ th{
 #primary_nav_wrap ul li:hover > ul
 {
     display:block
+}
+
+#mainSiteBody{
+    background-image: linear-gradient(#343434, black);
 }
 #logo{
     /*animation: 3s spin linear infinite;*/
