@@ -229,3 +229,6 @@ th{
 .underline{
     text-decoration: underline;
 }
+.moreBottomSpace{
+    margin-bottom: 75px;
+}
