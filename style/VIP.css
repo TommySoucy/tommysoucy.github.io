@@ -215,6 +215,8 @@ th{
 #projectsSection{
     /*background-color: black;*/
     text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .sectionTitle{
     color: gold;
