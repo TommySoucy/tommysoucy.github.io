@@ -208,11 +208,12 @@ th{
     border-left: 25px solid transparent;
 }
 #socialsBG{
-    transform: translateX(3px) translateY(-113px);
+    transform: translateY(-113px);
     margin-left: auto;
     margin-top: 0px;
     border-top: 110px solid black;
     border-left: 25px solid transparent;
+    width: 272px;
 }
 .socialIcon{
     width: 70px;
