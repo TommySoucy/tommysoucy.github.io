@@ -211,7 +211,7 @@ th{
     position: absolute;
 }
 #socialsBGBorder{
-    width: 300px;
+    width: 275px;
     margin-left: auto;
     margin-top: 0px;
     border-top: 110px solid gold;
@@ -235,13 +235,14 @@ th{
     position: absolute;
 }
 #welcomeSection{
-    margin-top: 12%;
+    margin-top: 75px;
     text-align: center;
 }
 #welcomeBanner{
     color: gold;
     font-size: 150px;
     font-weight: bolder;
+    margin-top: 0px;
     margin-bottom: 1%;
 }
 .bigText{
