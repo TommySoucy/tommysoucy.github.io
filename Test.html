@@ -3,45 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>VIP's site</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="style/VIP.css" />
     <script src="js/functLib.js"></script>
     <script src="js/three.min.js"></script>
     <script src="js/GLTFLoader.js"></script>
     <script src="js/model-element.min.js"></script>
-    <script>
-        window.onload=initLogoPos;
-        window.onresize=updateLogoPos;
-    </script>
 </head>
 <body id="mainSiteBody">
-<div id="topBar">
-    <!--Defines the spin animation
-    <style>
-        @keyframes spin {
-            to {
-                transform: rotateY(90deg);
-            }
-        }
-    </style>
-    -->
-    <div id="logoBGBorder"></div>
+<div id="topBar"></div>
+<header>
     <div id="logoBG"></div>
+    <div id="logoBGBorder"></div>
     <x-model id="logo" src="models\VIPLogo.glb"></x-model>
-</div>
-<div id="socials">
     <div id="socialsBGBorder"></div>
     <div id="socialsBG"></div>
-    <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/">
-        <img class="socialIcon" src="images/linkedin.svg" alt="LinkedIn link"/>
-    </a>
-    <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy">
-        <img class="socialIcon" src="images/github.svg" alt="Github link"/>
-    </a>
-    <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy">
-        <img class="socialIcon" src="images/facebook.svg" alt="Facebook link"/>
-    </a>
-</div>
+    <div id="socials">
+        <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/">
+            <img class="socialIcon" src="images/linkedin.svg" alt="LinkedIn link"/>
+        </a>
+        <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy">
+            <img class="socialIcon" src="images/github.svg" alt="Github link"/>
+        </a>
+        <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy">
+            <img class="socialIcon" src="images/facebook.svg" alt="Facebook link"/>
+        </a>
+    </div>
+</header>
 <div id="welcomeSection">
     <p id="welcomeBanner">Welcome.</p>
     <div class="sectionContent">
@@ -88,17 +75,16 @@
     </div>
 </div>
 <div id="bottomBar">
-    <div id="leftSection">
-        <small>Copyright &copy; 2019 Tommy Soucy. All rights reserved.</small>
-    </div>
-    <div id="rightSection">
-
-    </div>
-    <a class="link" href="contact.html">Contact</a>
-    <a class="link" href="credits.html">Credits</a>
-    <a></a>
+    <table>
+        <tr>
+            <td><a class="link" id="contactLink" href="Contact.html">Contact</a></td>
+            <td><a class="link" id="mainSiteLink" href="index.html">Main site</a></td>
+            <td><small>Copyright &copy; 2019 Tommy Soucy. All rights reserved.</small></td>
+        </tr>
+        <tr>
+            <td><a class="link" id="creditsLink" href="Credits.html">Credits</a></td>
+        </tr>
+    </table>
 </div>
-<p>Temporary: </p>
-<div>Icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
 </body>
 </html>
