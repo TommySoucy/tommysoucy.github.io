@@ -257,6 +257,7 @@ body{
     color: gold;
     font-weight: bold;
     font-size: 50px;
+    text-decoration: none;
 }
 #projectsSection{
     text-align: center;
@@ -304,4 +305,24 @@ footer{
 }
 #rightSection{
     float: right;
+}
+#creditsBody{
+    background-image: linear-gradient(#343434, black);
+    text-align: center;
+}
+#creditsSection{
+    margin-top: 200px;
+}
+#creditsBottomSpace{
+    height: 130px;
+}
+#contactBody{
+    background-image: linear-gradient(#343434, black);
+    text-align: center;
+}
+#contactSection{
+    margin-top: 300px;
+}
+#contactBottomSpace{
+    height: 325px;
 }

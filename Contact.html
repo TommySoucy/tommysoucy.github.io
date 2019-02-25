@@ -3,8 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style/VIP.css" />
+    <script src="js/functLib.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script src="js/model-element.min.js"></script>
 </head>
-<body>
-
+<body id="contactBody">
+<header>
+    <div id="topBar"></div>
+    <div id="logoBG"></div>
+    <div id="logoBGBorder"></div>
+    <x-model id="logo" src="models\VIPLogo.glb"></x-model>
+    <div id="socialsBGBorder"></div>
+    <div id="socialsBG"></div>
+    <div id="socials">
+        <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/">
+            <img class="socialIcon" src="images/linkedin.svg" alt="LinkedIn link"/>
+        </a>
+        <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy">
+            <img class="socialIcon" src="images/github.svg" alt="Github link"/>
+        </a>
+        <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy">
+            <img class="socialIcon" src="images/facebook.svg" alt="Facebook link"/>
+        </a>
+    </div>
+</header>
+<div id="contactSection" class="bigText">
+    <p>If you must contact me, do so at the following email address</p>
+    <p class="emText">soucy.tommy@gmail.com</p>
+     <div id="contactBottomSpace"></div>
+</div>
+<footer>
+    <div id="footerLeft">
+        <a class="link" id="contactLink" href="Contact.html">Contact</a>
+        <br/>
+        <br/>
+        <a class="link" id="creditsLink" href="Credits.html">Credits</a>
+    </div>
+    <div id="footerCenter">
+        <a class="link" id="mainSiteLink" href="index.html">Main site</a>
+    </div>
+    <div id="footerRight">
+        <small>Copyright &copy; 2019 Tommy Soucy. All rights reserved.</small>
+    </div>
+</footer>
 </body>
 </html>

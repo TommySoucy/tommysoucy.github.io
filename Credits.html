@@ -5,11 +5,38 @@
     <title>Credits</title>
     <link rel="stylesheet" type="text/css" href="style/VIP.css" />
     <script src="js/functLib.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script src="js/model-element.min.js"></script>
 </head>
-<body>
-    <div>
-        <p>Site created by Tommy Soucy</p>
-        <p>Social icons made by <a href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+<body id="creditsBody">
+    <header>
+        <div id="topBar"></div>
+        <div id="logoBG"></div>
+        <div id="logoBGBorder"></div>
+        <x-model id="logo" src="models\VIPLogo.glb"></x-model>
+        <div id="socialsBGBorder"></div>
+        <div id="socialsBG"></div>
+        <div id="socials">
+            <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/">
+                <img class="socialIcon" src="images/linkedin.svg" alt="LinkedIn link"/>
+            </a>
+            <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy">
+                <img class="socialIcon" src="images/github.svg" alt="Github link"/>
+            </a>
+            <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy">
+                <img class="socialIcon" src="images/facebook.svg" alt="Facebook link"/>
+            </a>
+        </div>
+    </header>
+    <div id="creditsSection" class="bigText">
+        <p>Site created by</p>
+        <p class="emText">Tommy Soucy</p>
+        <p>With help from</p>
+        <a class="emText" href="https://www.julienge.com">Julien G. E.</a>
+        <p>Social icons made by</p>
+        <p><a class="link" href="https://www.freepik.com/" title="Freepik">Freepik</a> from <a class="link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a class="link" href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+        <div id="creditsBottomSpace"></div>
     </div>
     <footer>
         <div id="footerLeft">
