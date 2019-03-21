@@ -10,24 +10,58 @@
     <script src="js/model-element.min.js"></script>
 </head>
 <body id="mainSiteBody">
-<div id="topBar"></div>
 <header>
+    <div id="topBar"></div>
     <div id="logoBG"></div>
     <div id="logoBGBorder"></div>
     <x-model id="logo" src="models\VIPLogo.glb"></x-model>
     <div id="socialsBGBorder"></div>
     <div id="socialsBG"></div>
     <div id="socials">
-        <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/">
+        <a class="socialLink" id="inLink" href="https://www.linkedin.com/in/tommy-soucy-770440176/" target="_blank">
             <img class="socialIcon" src="images/linkedin.svg" alt="LinkedIn link"/>
         </a>
-        <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy">
+        <a class="socialLink" id="gitLink" href="https://github.com/TommySoucy" target="_blank">
             <img class="socialIcon" src="images/github.svg" alt="Github link"/>
         </a>
-        <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy">
+        <a class="socialLink" id="fbLink" href="https://www.facebook.com/tommy.soucy" target="_blank">
             <img class="socialIcon" src="images/facebook.svg" alt="Facebook link"/>
         </a>
     </div>
+    <nav>
+        <div id="dropDownBGBorder"></div>
+        <div id="dropDownBG"></div>
+        <div class="dropdown">
+            <a id="VIPDropDown" class="emText" href="index.html">Main site</a>
+            <div id="navWelcome" class="secDropdown dropdownContent">
+                <a class="secEmText" href="Test.html">Welcome</a>
+            </div>
+            <div id="navProjects" class="secDropdown dropdownContent">
+                <a class="secEmText" href="Test.html">Projects</a>
+                <div id="navProjectsCurrent" class="secDropdownContent">
+                    <a class="secEmText" href="Test.html">Current</a>
+                </div>
+                <div id="navProjectsPast" class="secDropdownContent">
+                    <a class="secEmText" href="Test.html">Past</a>
+                </div>
+            </div>
+            <div id="navC3D" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Home.html">C3D</a>
+                <div id="navC3DInfo" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Info.html">Info</a>
+                </div>
+                <div id="navC3DPrices" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Prices.html">Prices</a>
+                </div>
+                <div id="navC3DOrder" class="secDropdownContent">
+                    <a class="secEmText" href="https://www.tommysoucy.vip/Concordian-3D-Printing/Order.html">Order</a>
+                </div>
+            </div>
+            <div id="navWork" class="secDropdown dropdownContent">
+                <a class="secEmText" href="https://www.tommysoucy.vip/Web-Programming-Courses-Work/">My work</a>
+            </div>
+        </div>
+    </nav>
 </header>
 <div id="welcomeSection">
     <p id="welcomeBanner">Welcome.</p>
@@ -61,7 +95,7 @@
             This project is being done in C++ in Unreal Engine 4 to be played using the HTC Vive VR headset.<br/><br/>
             You can check out the Trello <a class="link" href="https://trello.com/b/Tp7urcRX/survivr">here.</a><br/><br/>
             At the very beginning of development in 2017, I had chosen to call it SurviVR.<br/><br/>
-            The name has since then been used for another game on Steam and wil most probably be changed when this project is finally completed.<br/><br/>
+            The name has since then been used for another game on Steam and will most probably be changed when this project is finally completed.<br/><br/>
             A friend is currently helping for the sounds used in the game.
         </p>
         <p class="emText">Past</p>

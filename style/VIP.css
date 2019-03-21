@@ -102,12 +102,6 @@ body{
     padding:0;
     background: #1d1d1d;
 }
-/*
-#primary_nav_wrap ul li.current-menu-item
-{
-    background:#ddd
-}
-*/
 #primary_nav_wrap ul li:hover
 {
     background:#f6f6f6
@@ -217,17 +211,6 @@ body{
     width: 70px;
     height: 70px;
 }
-/*
-#inLink{
-    transform: translateY(15px) translateX(45px);
-}
-#gitLink{
-    transform: translateY(15px) translateX(125px);
-}
-#fbLink{
-    transform: translateY(15px) translateX(205px);
-}
-*/
 .socialLink{
     color: transparent;
     padding: 0 3px;
@@ -257,6 +240,12 @@ body{
     color: gold;
     font-weight: bold;
     font-size: 50px;
+    text-decoration: none;
+}
+.secEmText{
+    color: gold;
+    font-weight: bold;
+    font-size: 25px;
     text-decoration: none;
 }
 #projectsSection{
@@ -325,4 +314,97 @@ footer{
 }
 #contactBottomSpace{
     height: 325px;
+}
+#dropDownBGBorder{
+    position: absolute;
+    border-top: 50px solid gold;
+    border-right: 25px solid transparent;
+    width: 250px;
+    top: 53px;
+}
+#dropDownBG{
+    position: absolute;
+    border-top: 50px solid black;
+    border-right: 25px solid transparent;
+    width: 248px;
+    top: 50px;
+    z-index: 1;
+}
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    margin-top: -3px;
+    border-bottom: 3px solid gold;
+    border-right: 3px solid gold;
+}
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 249px;
+    min-height: 38px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 0px;
+    z-index: 1;
+    text-align: center;
+    top: 48px;
+    border-bottom: 3px solid gold;
+    border-right: 3px solid gold;
+}
+.secDropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 0px;
+    z-index: 1;
+    margin-left: 249px;
+    margin-top: -42px;
+    text-align: center;
+    border-bottom: 3px solid gold;
+    border-right: 3px solid gold;
+}
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+.secDropdown:hover .secDropdownContent {
+    display: block;
+}
+#VIPDropDown{
+    top: -10px;
+    left: 25px;
+    width: 250px;
+    position: absolute;
+    z-index: 2;
+}
+#navWelcome{
+    margin-top: 0px;
+}
+#navProjects{
+    margin-top: 62px;
+}
+#navProjectsCurrent{
+    border-top: 3px solid gold;
+}
+#navProjectsPast{
+    margin-top: 10px;
+}
+#navC3D{
+    margin-top: 124px;
+}
+#navC3DInfo{
+    border-top: 3px solid gold;
+}
+#navC3DPrices{
+    margin-top: 10px;
+}
+#navC3DOrder{
+    margin-top: 62px;
+    border-left: 3px solid gold;
+    min-width: 147px;
+}
+#navWork{
+    margin-top: 186px;
 }
