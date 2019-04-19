@@ -32,38 +32,38 @@ body{
 .whiteCell{
     background-color: white;
 }
-.pinkCell{
-    background-color: hotpink;
-}
 .redCell{
     background-color: red;
 }
 .orangeCell{
     background-color: orange;
 }
+.fluoYellowCell{
+    background-color: #f8ff00;
+}
 .yellowCell{
-    background-color: yellow;
+    background-color: #ffdf00;
+}
+.pearlGoldCell{
+    background-color: #d4ad00;
+}
+.goldCell{
+    background-color: gold;
 }
 .lightGreenCell{
-    background-color: lightgreen;
+    background-color: #3bd438;
 }
 .greenCell{
     background-color: green;
 }
-.darkGreenCell{
-    background-color: darkgreen;
-}
 .lightBlueCell{
-    background-color: lightblue;
-}
-.blueCell{
-    background-color: blue;
+    background-color: #00d0e7;
 }
 .darkBlueCell{
-    background-color: darkblue;
+    background-color: #00008b;
 }
-.purpleCell{
-    background-color: purple;
+.beigeCell{
+    background-color: #eaa960;
 }
 .brownCell{
     background-color: saddlebrown;
