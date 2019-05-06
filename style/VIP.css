@@ -270,15 +270,6 @@ body{
     margin-bottom: 75px;
 }
 footer{
-    /*
-    margin-top: auto;
-    padding: 25px;
-    height: 50px;
-    background-color: #343434;
-    */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     padding: 25px;
     height: 50px;
     background-color: #343434;
