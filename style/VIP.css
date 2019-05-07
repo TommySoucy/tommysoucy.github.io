@@ -407,11 +407,21 @@ footer{
 #navWork{
     margin-top: 186px;
 }
+#navWorkPersonal{
+    border-top: 3px solid gold;
+    min-width: 200px;
+    margin-top: -30px;
+}
+#navWorkSchool{
+    margin-top: 22px;
+    border-left: 3px solid gold;
+    min-width: 197px;
+}
 #personalSection{
      text-align: center;
      margin-right: 20%;
      margin-left: 20%;
-    margin-top: 150px;
+    margin-top: 200px;
 }
 #schoolSection{
       text-align: center;
