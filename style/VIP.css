@@ -9,7 +9,7 @@ body{
 }
 .link{
     color: gold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 #pricesTable{
     margin-left: auto;
