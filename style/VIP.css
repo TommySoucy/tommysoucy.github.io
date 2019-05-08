@@ -428,3 +428,14 @@ footer{
       margin-right: 20%;
       margin-left: 20%;
 }
+#introSection{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 200px;
+}
+#infoSection{
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
