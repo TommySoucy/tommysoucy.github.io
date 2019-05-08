@@ -440,6 +440,7 @@ footer{
     margin-left: 20%;
 }
 .emTextLink{
+    color: gold;
     font-weight: bold;
     font-size: 50px;
     text-decoration: underline;
