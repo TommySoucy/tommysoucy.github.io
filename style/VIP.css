@@ -260,6 +260,13 @@ body{
     padding-top: 5%;
     margin: 0%;
 }
+.sectionSubTitle{
+    color: gold;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-top: 5%;
+    margin: 0%;
+}
 .sectionContent{
     font-size: xx-large;
 }
