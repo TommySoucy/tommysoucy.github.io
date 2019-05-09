@@ -258,7 +258,7 @@ body{
     font-size: 120px;
     font-weight: bolder;
     padding-top: 5%;
-    margin: 0%;
+    margin: 0;
 }
 .sectionSubTitle{
     color: gold;
@@ -450,4 +450,7 @@ footer{
     font-weight: bold;
     font-size: 50px;
     text-decoration: underline;
+}
+#C3DOrderContent{
+    margin-top: 50px;
 }
