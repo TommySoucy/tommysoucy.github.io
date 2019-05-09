@@ -432,12 +432,11 @@ footer{
     text-align: center;
     margin-right: 20%;
     margin-left: 20%;
-    margin-top: 200px;
+    margin-top: 225px;
 }
 #infoSection{
     text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin: 200px 20% 100px 20%;
 }
 .emTextLink{
     color: gold;
