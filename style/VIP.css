@@ -424,6 +424,10 @@ footer{
     border-left: 3px solid gold;
     min-width: 197px;
 }
+#workList{
+    text-align: center;
+    margin: 200px 20% 150px 20%;
+}
 #personalSection{
      text-align: center;
      margin-right: 20%;
